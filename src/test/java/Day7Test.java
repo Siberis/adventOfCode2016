@@ -57,7 +57,7 @@ public class Day7Test {
     @Test
     public void FinalB() {
         Day7 d = new Day7();
-        Assert.assertEquals(110, d.count2(data + data2 + data3 + data4));
+        Assert.assertEquals(242, d.count2(data + data2 + data3 + data4));
     }
 
     String data = "rhamaeovmbheijj[hkwbkqzlcscwjkyjulk]ajsxfuemamuqcjccbc\n" +

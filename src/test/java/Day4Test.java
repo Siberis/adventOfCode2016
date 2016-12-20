@@ -26,13 +26,13 @@ public class Day4Test {
     @Test
     public void Final2() {
         Day4 d = new Day4();
-        Assert.assertEquals(1, d.decrypt(data));
+        Assert.assertEquals(0, d.decrypt(data));
     }
 
     @Test
     public void rotate() {
         Day4 d = new Day4();
-        Assert.assertEquals(1, d.rotate("qzmt-zixmtkozy-ivhz-343[2]"));
+        Assert.assertEquals(0, d.rotate("qzmt-zixmtkozy-ivhz-343[2]"));
     }
 
     String data = "hqcfqwydw-fbqijys-whqii-huiuqhsx-660[qhiwf]\n" +

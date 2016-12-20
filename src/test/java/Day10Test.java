@@ -17,7 +17,7 @@ public class Day10Test {
                 "bot 1 gives low to output 1 and high to bot 0\n" +
                 "bot 0 gives low to output 2 and high to output 0\n" +
                 "value 2 goes to bot 2";
-        Assert.assertEquals(true, d.process(inst));
+        Assert.assertEquals(30, d.process(inst));
     }
 
     @Test
