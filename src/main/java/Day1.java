@@ -7,9 +7,6 @@ import java.util.Set;
  * Created by siberis on 12/19/2016.
  */
 public class Day1 {
-    public static void main(String[] args) {
-
-    }
 
     public long compute(String s) {
         String[] tab = s.split(", ");
